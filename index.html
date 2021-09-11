@@ -18,6 +18,10 @@ drawer: true
     min-height: 100vh;
   }
 
+  .games * {
+    z-index: 2;
+  }
+
   .games:before {
     content: ' ';
     display: block;
@@ -31,6 +35,7 @@ drawer: true
     background-position: 50% 0;
     background-size: cover;
     opacity: 0.05;
+    z-index: 1;
   }
 </style>
 
