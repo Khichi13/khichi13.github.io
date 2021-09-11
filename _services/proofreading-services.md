@@ -9,14 +9,14 @@ icon: drive_file_rename_outline
 
 Are you looking for a Proofreader? Then I am here to help. I provide no doubt very Professional services within 24 hours to Customer Satisfaction. 
 
-__What am I offering?__
+## What am I offering?
 
 - Book Proofreading
 - Article Proofreading
 - Blog Proofreading
 - Content Proofreading
 
-__Why my gig?__
+## Why my gig?
 
 - UNLIMITED REVISIONS
 - 100% Satisfaction
