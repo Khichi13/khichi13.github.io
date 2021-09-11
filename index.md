@@ -20,7 +20,7 @@ I've saved a thousand worlds and countless more lives. What am I? I'm a gamer!
 
 <div class="col-md-4">
 
-![Slytherin House logo](./assets/images/slytherin.png)
+![Slytherin House logo](https://github.com/Khichi13/khichi13.github.io/blob/main/assets/images/slytherin.png)
   
 <section class="mdc-card mdc-card--outlined highlighted">
   <div class="mdc-card__content">
