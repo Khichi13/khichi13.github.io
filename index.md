@@ -7,22 +7,33 @@ drawer: true
 ---
 
 <div class="col-md-8">
-  <p>{{ site.data.manifest.description }}</p>
+  
+I'm the <b>hero of a thousand stories</b>. I'm a superhero, an assassin, a soldier!
+I 've slain dragons and traveled through portals. I am a spartan, a commander, a king!
+I've saved a thousand worlds and countless more lives. What am I? I'm a gamer!
 
-  <h2>My Gigs</h2>
-  {% include list_services.html %}
+## My Gigs
+
+{% include list_services.html %}
+
 </div>
 
 <div class="col-md-4">
-  <!-- Featured Projects -->
-  <section class="mdc-card mdc-card--outlined highlighted">
-    <div class="mdc-card__content">
-      <h2>Blog Posts</h2>
-      {% include list_posts.html %}
-    </div>
-  </section>
 
-  {% include widget_goodreads.html %}
+![Slytherin House logo](./assets/images/slytherin.png)
+  
+<section class="mdc-card mdc-card--outlined highlighted">
+  <div class="mdc-card__content">
+
+## Blog Posts
+    
+{% include list_posts.html %}
+
+  </div>
+</section>
+
+{% include widget_goodreads.html %}
+
 </div>
 
 <!-- PWA -->
