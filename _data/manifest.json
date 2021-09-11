@@ -2,13 +2,13 @@
   "lang": "en",
   "short_name": "Vive La Mystique",
   "name": "Dr. Mystic aka. Farooq",
-  "categories": ["farooq khichi", "blog"],
-  "tagline": "",
-  "description": "",
+  "categories": ["farooq", "khichi", "simple-material", "blog"],
+  "tagline": "Let the games begin.",
+  "description": "I'm the hero of a thousand stories. I'm a superhero, an assassin a soldier. I've slain dragons and traveled through portals. I am a spartan, a commander. A king. I've saved a thousand worlds and countless more lives. What am I? I'm a gamer.",
   "icons": [{
-      "src": "/assets/images/icons/192.png",
+      "src": "/assets/images/icons/128.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "128x128"
     }
   ],
   "background_color": "#fafafa",
@@ -16,5 +16,5 @@
   "orientation": "natural",
   "scope": "/",
   "start_url": "/",
-  "theme_color": "#7cb342"
+  "theme_color": "#009688"
 }
