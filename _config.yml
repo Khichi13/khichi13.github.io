@@ -1,5 +1,5 @@
 # use the `simple-material` theme by saifkhichi96
-theme: simple-material
+remote_theme: saifkhichi96/simple-material
 url: 'https://khichi13.github.io'
 baseurl: ''
 
