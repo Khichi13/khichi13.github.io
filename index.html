@@ -1,38 +1,24 @@
 ---
-layout: page
-title: Simple Material Demo
-description: This is a demo of the 'Simple Material' Jekyll theme by Saif Khan.
+layout: default
+title: Viva La Mystique
+description: This is a random website for you to waste your time.
 keywords: portfolio, developer, freelancer
 drawer: true
-download:
-  gem: simple-material
-pagination:
-  enabled: true
 ---
 
 <div class="col-md-8">
   <p>{{ site.data.manifest.description }}</p>
 
-  <h2>Getting Started</h2>
-  <p>For detailed installation instructions, <a href="https://saifkhichi.com/simple-material/getting-started/">see this</a>. If you are unsure, you can simply <a href="https://github.com/saifkhichi96/simple-material/fork" target="_blank">fork this demo</a> on GitHub!</p>
-
-  <h2>Blog Posts &nbsp;
-  <a href="{{ site.baseurl }}/feed.xml" rel="noopener" target="_blank" style="padding-right: 4px;">
-    <i class="fas fa-rss-square" style="color: var(--mdc-theme-on-surface)"></i>
-  </a>
-  </h2>
-
-  {% include list_blog_posts.html %}
-  {% include widget_github.html %}
+  <h2>My Gigs</h2> 
+  {% include list_services.html %}
 </div>
 
 <div class="col-md-4">
   <!-- Featured Projects -->
   <section class="mdc-card mdc-card--outlined highlighted">
     <div class="mdc-card__content">
-      <h2>Featured Work</h2>
-      <p>Are you particulary fond of some of your work? Just add a 'featured' tag in the project's categories, and Simple Material lets you show them all in one place. You can then show them in a prominent place on your website, like the homepage.</p>
-      {% include list_projects_featured.html %}
+      <h2>Blog Posts</h2>
+      {% include list_posts.html %}
     </div>
   </section>
 
