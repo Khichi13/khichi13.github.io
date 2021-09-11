@@ -3,6 +3,8 @@ remote_theme: saifkhichi96/simple-material
 url: 'https://khichi13.github.io'
 baseurl: ''
 
+logo: /assets/images/logo.png
+
 # Main menu
 menu_main:
 - title:                   Home

@@ -1,14 +1,14 @@
 {
   "lang": "en",
-  "short_name": "Dr. Mystic",
-  "name": "Farooq Khichi",
-  "categories": ["blog-theme", "github-pages", "jekyll", "template"],
-  "tagline": "A demo Jekyll blog made with the Simple Material theme by Saif Khan.",
-  "description": "Simple Material is a Jekyll theme for blogs and portfolios. Designed with Google's Material Design guidelines in mind, it provides a a beautiful, clean and mobile-first fully-responsive interface for building your new website with minimal code.",
+  "short_name": "Vive La Mystique",
+  "name": "Dr. Mystic aka. Farooq",
+  "categories": ["farooq khichi", "blog"],
+  "tagline": "",
+  "description": "",
   "icons": [{
-      "src": "/assets/images/icons/32.png",
+      "src": "/assets/images/icons/192.png",
       "type": "image/png",
-      "sizes": "32x32"
+      "sizes": "192x192"
     }
   ],
   "background_color": "#fafafa",
