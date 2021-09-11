@@ -1,0 +1,105 @@
+---
+layout: default
+description: This is a random website for you to waste your time.
+keywords: portfolio, farooq khichi, freelancer
+drawer: true
+---
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+  .headline {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 18px;
+      line-height: 20px;
+  }
+
+  .games{
+    position: relative;
+    min-height: 100vh;
+  }
+
+  .games:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('{{ site.baseurl }}/assets/images/controllers.png');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+    opacity: 0.05;
+  }
+</style>
+
+<div class="col-md-8">
+  <p class="headline" style="text-align: center;">
+    I'm the hero of a thousand stories. <br>
+    I'm a superhero, an assassin, a soldier. <br>
+    I 've slain dragonsand traveled through portals.<br>
+    I am a spartan, a commander, a king!<br>
+    I've saved a thousand worlds and countless more lives.<br>
+    What am I? <br>
+    <br>
+    <big>I AM A GAMER.<big>
+  </p>
+
+
+
+  <section class="mdc-card games">
+    <div class="mdc-card__content">
+      <h2><big>My Games</big></h2>
+
+    </div>
+  </section>
+
+  <section class="mdc-card">
+    <div class="mdc-card__content">
+    <h2><big>My Gigs</big></h2>
+
+    {% include list_services.html %}
+    </div>
+  </section>
+
+</div>
+
+<div class="col-md-4">
+
+<img src="{{ site.baseurl }}/assets/images/slytherin.png" alt="Slytherin House logo" style="width: 100%; height: auto;" />
+
+<section class="mdc-card mdc-card--outlined highlighted">
+  <div class="mdc-card__content">
+
+    <h2>Blog Posts</h2>
+
+    {% include list_posts.html %}
+  </div>
+</section>
+
+{% include widget_goodreads.html %}
+
+<p style="text-align: center;">
+<img src="{{ site.baseurl }}/assets/images/i-am-a-gamer.png" alt="Gaming is my life." style="width: 256px; height: auto;" />
+</p>
+
+</div>
+
+<!-- PWA -->
+<script src="{{ site.baseurl }}/assets/scripts/webapp.js"></script>
+<script type="module">
+  import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+  const el = document.createElement('pwa-update');
+  document.body.appendChild(el);
+</script>
+<script>
+  function install() {
+    const ref = document.getElementById("a2hs");
+    if (!ref.getInstalledStatus()) {
+      ref.openPrompt();
+    } else {
+      showSnackbar("You have already installed the app.");
+    }
+  }
+</script>
