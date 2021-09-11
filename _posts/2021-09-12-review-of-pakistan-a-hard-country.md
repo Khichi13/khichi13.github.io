@@ -2,7 +2,7 @@
 layout: post
 title: Book Review of 'Pakistan-A Hard Country by Anatol Lieven'
 categories: ["Books"]
-cover: https://thehungryreader.files.wordpress.com/2011/05/lieven1_1865186f.jpg
+cover: https://i.ytimg.com/vi/-DpMywtEkdo/maxresdefault.jpg
 permalink: /:title/
 ---
 
