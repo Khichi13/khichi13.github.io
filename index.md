@@ -9,7 +9,7 @@ drawer: true
 <div class="col-md-8">
   
 I'm the <b>hero of a thousand stories</b>. I'm a superhero, an assassin, a soldier!
-I 've slain dragons and traveled through portals. I am a spartan, a commander, a king!
+I've slain dragons and traveled through portals. I am a spartan, a commander, a king!
 I've saved a thousand worlds and countless more lives. What am I? I'm a gamer!
 
 ## My Gigs
