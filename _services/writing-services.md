@@ -4,7 +4,7 @@ title:  Writing Services
 cover: https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/150941741/original/e686586c07fc15d96d57576dd1c54c223b52460f/ghostwrite-your-short-creative-fiction-or-nonfiction.png
 keywords: gig, fiverr, writing service, freelancing, content
 description: I will ghostwrite your short creative and unique fiction, nonfiction story.
-icon: history_edu
+icon: drive_file_rename_outline
 ---
 
 Are you looking for an experienced Ghostwriter for your next story? This is where I come in. Good to see you here. I provide professional content in just 24 hours.
