@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  Assassin's Creed
-categories: featured, action, adventure, stealth
+categories: [featured, action, adventure, stealth]
 keywords: assassin's creed, game, action, adventure, stealth
 icon: /assets/images/games/assassin's-creed-logo.png
 cover: https://9cover.com/images/ccovers/1363127430assassins-creed-revelations.jpg
