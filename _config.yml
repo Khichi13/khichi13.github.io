@@ -1,7 +1,7 @@
 # use the `simple-material` theme by saifkhichi96
 remote_theme: saifkhichi96/simple-material
-url: 'https://saifkhichi96.github.io'
-baseurl: '/simple-material-demo'
+url: 'https://khichi13.github.io'
+baseurl: ''
 
 # Main menu
 menu_main:
@@ -23,20 +23,20 @@ menu_main:
 menu_social:
   # Provide your usernames for social icons you want to show in the footer
   dribbble:
-  email:                   youremail@gmail.com
-  facebook:
+  email:                   farooqnawaz.fk@gmail.com
+  facebook:                farooqnawaz.fk
   flickr:
-  instagram:               saifkhichi96
-  linkedin:                saifkhichi96
+  instagram:               farooqnawaz.fk
+  linkedin:                
   pinterest:
-  twitter:                 saifkhichi96
+  twitter:                 farooqnawaz.fk
   stackoverflow:
   youtube:
   playconsole:
 
   # For using the GitHub contributions chart and Goodreads books widgets
-  github:                  saifkhichi96  # your GitHub username
-  goodreads:               26736309  # your Goodreads user id
+  github:                  khichi13  # your GitHub username
+  goodreads:               31757446  # your Goodreads user id
 
 # Show main menu as a `sitemap` in footer
 navigation_footer:         true
