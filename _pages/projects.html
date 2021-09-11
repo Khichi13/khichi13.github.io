@@ -1,0 +1,185 @@
+---
+layout: page
+noamp: true
+permalink: /portfolio/
+title: Portfolio
+description: Allow our work to introduce itself.
+keywords: portfolio, projects, showcase
+menuitem: Get a Quote
+menuaction : window.location='/contact/'
+---
+
+<script>
+  $('section .breadcrumbs').parent().parent().addClass('hide-when-small')
+</script>
+
+<header>
+  <!-- Page Title and Description -->
+  <section class="hide-when-small">
+    <p>
+      This page provides a current list of my completed <b>programming projects</b>. These include mobile apps, games, websites, desktop software, and more. You might also be interested in my <a href="/research/">research work</a>.<br>
+      <br>
+      Use the filters below to search for projects by platform and type.
+    </p>
+  </section>
+</header>
+
+<section class="portfolio" id="portfolio">
+  <!-- Filters -->
+  <ul class="mdc-chip-set mdc-chip-set--choice filters portfolio-filter" role="grid">
+    <li class="mdc-chip active" role="row" data-filter=".all">
+      <div class="mdc-chip__ripple"></div>
+      <span role="gridcell">
+        <span role="button" tabindex="0" class="mdc-chip__text">all platforms</span>
+      </span>
+    </li>
+    <li class="mdc-chip" role="row" data-filter=".mobile">
+      <div class="mdc-chip__ripple"></div>
+      <span role="gridcell">
+        <span role="button" tabindex="0" class="mdc-chip__text">mobile</span>
+      </span>
+    </li>
+    <li class="mdc-chip" role="row" data-filter=".desktop">
+      <div class="mdc-chip__ripple"></div>
+      <span role="gridcell">
+        <span role="button" class="mdc-chip__text">desktop</span>
+      </span>
+    </li>
+    <li class="mdc-chip" role="row" data-filter=".web">
+      <div class="mdc-chip__ripple"></div>
+      <span role="gridcell">
+        <span role="button" class="mdc-chip__text">web</span>
+      </span>
+    </li>
+  </ul>
+
+  <!-- Apps -->
+  <section>
+    <h2 class="text-left subtitle">Apps</h2>
+    <div class="grid filters-content">
+      {% for page in site.projects %}
+      {% assign categories = page.categories %}
+      {% if categories contains 'app' %}
+      <a href="{{ site.baseurl }}{{ page.url }}" class="portfolio-item all app {{ page.device }}">
+        <div class="mdc-card">
+          <div class="project-icon mdc-card__primary-action">
+            <div class="mdc-card__media mdc-card__media--square" style="background: url('{{ page.icon }}') center center no-repeat; background-size: cover;">
+            </div>
+            <div class="overlay"></div>
+          </div>
+        </div>
+        <div class="project-details">
+          <strong>{{ page.title }}</strong>
+          <small>{{ page.type }}</small>
+        </div>
+      </a>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </section>
+
+  <!-- Games -->
+  <section>
+    <h2 class="text-left subtitle">Games</h2>
+    <div class="grid filters-content">
+      {% for page in site.projects %}
+      {% assign categories = page.categories %}
+      {% if categories contains 'game' %}
+      <a href="{{ site.baseurl }}{{ page.url }}" class="portfolio-item all game {{ page.device }}">
+        <div class="mdc-card">
+          <div class="project-icon mdc-card__primary-action">
+            <div class="mdc-card__media mdc-card__media--square" style="background: url('{{ page.icon }}') center center no-repeat; background-size: cover;">
+            </div>
+            <div class="overlay"></div>
+          </div>
+        </div>
+        <div class="project-details">
+          <strong>{{ page.title }}</strong>
+          <small>{{ page.type }}</small>
+        </div>
+      </a>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </section>
+
+  <!-- APIs -->
+  <section>
+    <h2 class="text-left subtitle">APIs</h2>
+    <div class="grid filters-content">
+      {% for page in site.projects %}
+      {% assign categories = page.categories %}
+      {% if categories contains 'game' %}
+      <a href="{{ site.baseurl }}{{ page.url }}" class="portfolio-item all api {{ page.device }}">
+        <div class="mdc-card">
+          <div class="project-icon mdc-card__primary-action">
+            <div class="mdc-card__media mdc-card__media--square" style="background: url('{{ page.icon }}') center center no-repeat; background-size: cover;">
+            </div>
+            <div class="overlay"></div>
+          </div>
+        </div>
+        <div class="project-details">
+          <strong>{{ page.title }}</strong>
+          <small>{{ page.type }}</small>
+        </div>
+      </a>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </section>
+</section>
+
+<section class="text-center">
+  <div class="callout">
+    Do you have a project?
+  </div>
+  <p>
+    I can help! Learn more about the <a href="/services/">services I offer</a> and <a href="/contact/">contact me</a> with your project requirements to get a quote.
+  </p>
+</section>
+
+<div class="mdc-tab-bar bottom-navigation" role="tablist">
+  <div class="mdc-tab-scroller">
+    <div class="mdc-tab-scroller__scroll-area">
+      <div class="mdc-tab-scroller__scroll-content">
+
+        <button class="mdc-tab mdc-tab--active" data-filter=".app" role="0" aria-selected="true" tabindex="0">
+          <span class="mdc-tab__content">
+            <span class="mdc-tab__icon material-icons" aria-hidden="true">apps</span>
+            <span class="mdc-tab__text-label">Apps</span>
+          </span>
+          <span class="mdc-tab-indicator mdc-tab-indicator--active">
+            <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+          </span>
+          <span class="mdc-tab__ripple"></span>
+        </button>
+
+        <button class="mdc-tab" data-filter=".game" role="1" aria-selected="true">
+          <span class="mdc-tab__content">
+            <span class="mdc-tab__icon material-icons" aria-hidden="true">games</span>
+            <span class="mdc-tab__text-label">Games</span>
+          </span>
+          <span class="mdc-tab-indicator mdc-tab-indicator">
+            <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+          </span>
+          <span class="mdc-tab__ripple"></span>
+        </button>
+
+        <button class="mdc-tab" data-filter=".api" role="2" aria-selected="true">
+          <span class="mdc-tab__content">
+            <span class="mdc-tab__icon material-icons" aria-hidden="true">code</span>
+            <span class="mdc-tab__text-label">APIs</span>
+          </span>
+          <span class="mdc-tab-indicator mdc-tab-indicator">
+            <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+          </span>
+          <span class="mdc-tab__ripple"></span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Page specific scripts -->
+<script async src="{{ site.baseurl }}/assets/vendors/isotope/isotope-min.js"></script>
+<script async src="{{ site.baseurl }}/assets/scripts/projects.js"></script>

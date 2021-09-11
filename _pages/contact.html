@@ -1,0 +1,67 @@
+---
+layout: default
+permalink: /contact/
+title: Contact Me
+description: If you need help with a project, or have a question about my work, feel free to contact me now through this page.
+keywords: contact me, portfolio, developer, freelancer, saif khan, saifkhichi96
+---
+
+<div class="col-md-8">
+  <section>
+    <p>
+      Are you looking for someone to <strong>help you with a project</strong>? Or do you have any <strong>general inquries about my work</strong>? Feel free to contact me now through any of the channels on this page.
+    </p>
+    <p>
+      If you would like to talk on email, fill up the following form and hit 'Send'. Please make sure to provide any relevant details I would need to address any questions or proposals you may have.
+    </p>
+    <form class="mdc-card mdc-card--outlined contact-form" style="padding: 16px;">
+      <label class="mdc-text-field mdc-text-field--outlined" id="name-field">
+        <span class="mdc-text-field__ripple"></span>
+        <span class="mdc-floating-label" id="name">Name</span>
+        <input class="mdc-text-field__input" type="text" aria-labelledby="name" required>
+        <span class="mdc-line-ripple"></span>
+      </label>
+      <br>
+
+      <label class="mdc-text-field mdc-text-field--outlined" id="email-field">
+        <span class="mdc-text-field__ripple"></span>
+        <span class="mdc-floating-label" id="email">Email address</span>
+        <input class="mdc-text-field__input" type="email" aria-labelledby="email" required>
+        <span class="mdc-line-ripple"></span>
+      </label>
+      <br>
+
+      <label class="mdc-text-field mdc-text-field--outlined" id="subject-field">
+        <span class="mdc-text-field__ripple"></span>
+        <span class="mdc-floating-label" id="subject">Subject</span>
+        <input class="mdc-text-field__input" type="text" aria-labelledby="subject" required>
+        <span class="mdc-line-ripple"></span>
+      </label>
+      <br>
+
+      <label class="mdc-text-field mdc-text-field--outlined mdc-text-field--textarea mdc-text-field--with-internal-counter" id="message-field">
+        <span class="mdc-text-field__ripple"></span>
+        <span class="mdc-floating-label" id="message">Your message</span>
+        <span class="mdc-text-field__resizer">
+          <textarea class="mdc-text-field__input" aria-labelledby="message" rows="8" cols="40" maxlength="1000" required></textarea>
+          <span class="mdc-text-field-character-counter">0 / 1000</span>
+        </span>
+        <span class="mdc-line-ripple"></span>
+      </label>
+      <br>
+
+      <div class="mdc-touch-target-wrapper" style="text-align: right">
+        <a class="mdc-button mdc-button--unelevated" href="#" id="send-button">
+          <span class="mdc-button__ripple"></span>
+          <span class="mdc-button__label">Send</span>
+          <span class="mdc-button__touch"></span>
+        </a>
+      </div>
+    </form>
+
+    <!-- Contact Success Message -->
+    <div class="mdc-card--outlined message-sent-success highlight" style="padding: 16px;">
+      Thank you for your message. I will write back to you soon.
+    </div>
+  </section>
+</div>

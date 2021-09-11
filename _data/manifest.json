@@ -1,0 +1,20 @@
+{
+  "lang": "en",
+  "short_name": "Simple Material Demo",
+  "name": "Simple Material",
+  "categories": ["blog-theme", "github-pages", "jekyll", "template"],
+  "tagline": "A demo Jekyll blog made with the Simple Material theme by Saif Khan.",
+  "description": "Simple Material is a Jekyll theme for blogs and portfolios. Designed with Google's Material Design guidelines in mind, it provides a a beautiful, clean and mobile-first fully-responsive interface for building your new website with minimal code.",
+  "icons": [{
+      "src": "/assets/images/icons/32.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    }
+  ],
+  "background_color": "#fafafa",
+  "display": "standalone",
+  "orientation": "natural",
+  "scope": "/",
+  "start_url": "/",
+  "theme_color": "#f06292"
+}

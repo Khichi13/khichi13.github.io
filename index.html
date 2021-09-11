@@ -1,0 +1,58 @@
+---
+layout: page
+title: Simple Material Demo
+description: This is a demo of the 'Simple Material' Jekyll theme by Saif Khan.
+keywords: portfolio, developer, freelancer
+drawer: true
+download:
+  gem: simple-material
+pagination:
+  enabled: true
+---
+
+<div class="col-md-8">
+  <p>{{ site.data.manifest.description }}</p>
+
+  <h2>Getting Started</h2>
+  <p>For detailed installation instructions, <a href="https://saifkhichi.com/simple-material/getting-started/">see this</a>. If you are unsure, you can simply <a href="https://github.com/saifkhichi96/simple-material/fork" target="_blank">fork this demo</a> on GitHub!</p>
+
+  <h2>Blog Posts &nbsp;
+  <a href="{{ site.baseurl }}/feed.xml" rel="noopener" target="_blank" style="padding-right: 4px;">
+    <i class="fas fa-rss-square" style="color: var(--mdc-theme-on-surface)"></i>
+  </a>
+  </h2>
+
+  {% include list_blog_posts.html %}
+  {% include widget_github.html %}
+</div>
+
+<div class="col-md-4">
+  <!-- Featured Projects -->
+  <section class="mdc-card mdc-card--outlined highlighted">
+    <div class="mdc-card__content">
+      <h2>Featured Work</h2>
+      <p>Are you particulary fond of some of your work? Just add a 'featured' tag in the project's categories, and Simple Material lets you show them all in one place. You can then show them in a prominent place on your website, like the homepage.</p>
+      {% include list_projects_featured.html %}
+    </div>
+  </section>
+
+  {% include widget_goodreads.html %}
+</div>
+
+<!-- PWA -->
+<script src="{{ site.baseurl }}/assets/scripts/webapp.js"></script>
+<script type="module">
+  import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+  const el = document.createElement('pwa-update');
+  document.body.appendChild(el);
+</script>
+<script>
+  function install() {
+    const ref = document.getElementById("a2hs");
+    if (!ref.getInstalledStatus()) {
+      ref.openPrompt();
+    } else {
+      showSnackbar("You have already installed the app.");
+    }
+  }
+</script>

@@ -1,0 +1,73 @@
+# use the `simple-material` theme by saifkhichi96
+remote_theme: saifkhichi96/simple-material
+url: 'https://saifkhichi96.github.io'
+baseurl: '/simple-material-demo'
+
+# Main menu
+menu_main:
+- title:                   Home
+  icon:                    home
+  url:                     /
+- title:                   Profile
+  icon:                    face
+  url:                     /about/
+- title:                   Services
+  icon:                    design_services
+  url:                     /services/
+- title:                   # empty item adds a small divider in list
+- title:                   Contact
+  icon:                    # this item does not have an icon
+  url:                     /contact/
+
+# Social menu
+menu_social:
+  # Provide your usernames for social icons you want to show in the footer
+  dribbble:
+  email:                   youremail@gmail.com
+  facebook:
+  flickr:
+  instagram:               saifkhichi96
+  linkedin:                saifkhichi96
+  pinterest:
+  twitter:                 saifkhichi96
+  stackoverflow:
+  youtube:
+  playconsole:
+
+  # For using the GitHub contributions chart and Goodreads books widgets
+  github:                  saifkhichi96  # your GitHub username
+  goodreads:               26736309  # your Goodreads user id
+
+# Show main menu as a `sitemap` in footer
+navigation_footer:         true
+
+# To enable breadcrumbs, set to true
+breadcrubms:               false
+
+# Enable comments on posts (provide your Disqus user id)
+disqus:
+
+# Enable ads and analytics
+# google_adsense:            ca-pub-6293532XXXXXXXXX
+# google_analytics:        UA-43339302-11
+# google_analytics_ga4:    G-GABC1DEFG
+
+# Enable pagination (required if you want to use the blog feature)
+pagination:
+  enabled: true
+
+# Enable projects (required if you want to showcase your work portfolio)
+collections:
+  projects:
+    output:                true
+    permalink:             /projects/:path/  # you can set this to whatever you want
+  services:
+    output:                true
+    permalink:             /services/:path/
+
+# Default license of website content
+license:
+  content:
+    name: Creative Commons 4.0 Attribution International
+  code:
+    name: MIT License
