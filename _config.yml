@@ -27,7 +27,7 @@ menu_social:
   facebook:                farooqnawaz.fk
   flickr:
   instagram:               farooqnawaz.fk
-  linkedin:                
+  linkedin:
   pinterest:
   twitter:                 farooqnawaz.fk
   stackoverflow:
@@ -71,3 +71,5 @@ license:
     name: Creative Commons 4.0 Attribution International
   code:
     name: MIT License
+
+include:                   [_pages]
